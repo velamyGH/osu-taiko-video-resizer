@@ -1,6 +1,6 @@
 # osu-taiko-video-resizer
 
-[original tool](https://osu.ppy.sh/community/forums/topics/1129583?n=1) made by Khoo Hao Yit and Jerry, linux native script by velamy :3 
+[original tool](https://osu.ppy.sh/community/forums/topics/1129583?n=1) made by [Khoo Hao Yit](https://osu.ppy.sh/users/9534110) and [Jerry](https://osu.ppy.sh/users/605973), linux native script by me :3 
  
 basic tutorial:
 
