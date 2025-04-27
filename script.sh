@@ -1,23 +1,11 @@
-#!/bin/bash
-
 echo "//Tool made by Khoo Hao Yit and Jerry, linux native script by velamy"
-
-if [ -z "$1" ]; then
-  echo
-  echo "Please drag and drop the file you would like to rescale"
-  echo
-  read -p "Press enter to exit..."
-  exit 1
-fi
 
 echo
 echo "Video conversion in progress, please wait"
 echo
 
-# Go to script's directory
 cd "$(dirname "$0")"
 
-# Run ffmpeg with the appropriate arguments
 files/ffmpeg/ffmpeg -y -hide_banner -loglevel fatal -stats \
   -i "$1" -i files/Blank720p.png \
   -filter_complex "[0]split=3[blur][scale][output];[output]scale=1280:720[output];[scale]scale=-1:340[scale];[blur]scale=1280:-1,boxblur=10,crop=1280:340[blur];[output][1]overlay=0:0[output];[output][blur]overlay=0:387[output];[output][scale]overlay=(W-w)/2:387[output]" \
