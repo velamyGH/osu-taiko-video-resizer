@@ -1,0 +1,14 @@
+basic tutorial as well as common issues that i can think of and how to fix them yay
+
+open your terminal in this location. you can most likely right click in an empty space, and click something along the lines of "Open Terminal Here", if not then type `cd /(path)/osu!taiko\ Video\ Resizer/` with (path) being wherever you downloaded this to
+
+once you are in the directory, you can type `./script.sh (video).mp4` with (video) being the filename (if your video is not mp4 then you will have to rename the file extension accordingly)
+
+done! your video should be in the root as output.mp4 :)
+
+
+issues:
+
+if the file does not execute, you may need to type `chmod +x script.sh` to make it executable.
+
+any other questions can be dmed to me at velamy on osu or discord :3 <3
