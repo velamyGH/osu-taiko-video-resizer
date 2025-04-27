@@ -4,6 +4,8 @@
  
 basic tutorial:
 
+- download the `release.zip` file from the releases tab on the right and extract it
+
 - open your terminal in the root directory (the one with script.sh)
 
 - type <pre> ``` ./script.sh (video).mp4 ``` </pre> with (video) being the filename of the video you would want to resize. if the video extension is anything other than .mp4 you will have to rename that accordingly.
